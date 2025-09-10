@@ -1,0 +1,18 @@
+Titulo: Ella esta encantada
+Genero: fantasia
+Fecha de lanzamiento: 2004
+Directores:
+ - Tommy O'Haver
+----------------------
+Titulo: El senor de los anillos: el retorno del rey
+Genero: fantasia
+Fecha de lanzamiento: 2003
+Directores:
+ - Peter Jackson
+----------------------
+Titulo: El hobbit
+Genero: fantasia
+Fecha de lanzamiento: 2012
+Directores:
+ - Peter Jackson
+----------------------

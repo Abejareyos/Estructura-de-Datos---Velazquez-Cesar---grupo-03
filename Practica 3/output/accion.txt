@@ -1,0 +1,12 @@
+Titulo: Rocky
+Genero: accion
+Fecha de lanzamiento: 1976
+Directores:
+ - Sylvester Stallone
+----------------------
+Titulo: Gigantes de acero
+Genero: accion
+Fecha de lanzamiento: 2011
+Directores:
+ - Shawn Levy
+----------------------

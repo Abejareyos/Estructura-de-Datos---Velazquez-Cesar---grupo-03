@@ -1,0 +1,18 @@
+Titulo: Corazon de caballero
+Genero: romanticas
+Fecha de lanzamiento: 2001
+Directores:
+ - Brian Helgeland
+----------------------
+Titulo: Bajo el mismo techo
+Genero: romanticas
+Fecha de lanzamiento: 2010
+Directores:
+ - Greg Berlanti
+----------------------
+Titulo: Los puentes de Madison
+Genero: romanticas
+Fecha de lanzamiento: 1995
+Directores:
+ - Clint Eastwood
+----------------------

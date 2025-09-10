@@ -1,0 +1,12 @@
+Titulo: La cosa del otro mundo
+Genero: terror
+Fecha de lanzamiento: 1982
+Directores:
+ - Jhon Carpenter
+----------------------
+Titulo: Pesadilla en la calle del infierno
+Genero: terror
+Fecha de lanzamiento: 1984
+Directores:
+ - Wes Craven
+----------------------
