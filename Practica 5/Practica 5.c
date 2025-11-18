@@ -90,8 +90,8 @@ int colaEmpty(struct Cola *c) {
 
 // Insertar elemento (enqueue)
 void enqueue(struct Cola *c, int valor) {
-    if (colafull(c)) {
-        printf("La cola esta llena, no se puede insertar el elemento %d \n", valor);
+    if (colafull(c)) { //Medidas de prevencion de overflow
+        printf("La cola esta llena, no se puede insertar el elemento %d \n", valor); // Si la cola está llena no se puede insertar
         return;
     }
     c->final = (c->final + 1) % MAX;
@@ -102,8 +102,8 @@ void enqueue(struct Cola *c, int valor) {
 
 // Extraer elemento (dequeue)
 int dequeue(struct Cola *c) {
-    if (colaEmpty(c)) {
-        printf("La cola esta vacia, no se puede desencolar el elemento \n");
+    if (colaEmpty(c)) { //Medidas de prevencion de underflow
+        printf("La cola esta vacia, no se puede desencolar el elemento \n"); // Si la cola está vacía no se puede extraer
         return -1; // Valor de error
     }
     int valor = c->elementos[c->frente];
@@ -203,4 +203,4 @@ y FIFO en las colas*/
 provocando errores o un comportamiento indefinido si no le mandamos un mensaje de error*/
 /* 3. Al tener un tamaño máximo, tanto la pila como la cola pueden llenarse. 
 Si intentamos exeder el limite, el programa no se ejecutara correctamente corrompiendo la memoria
-o en este caso mandando un mensaje de error reiniciando el programa*/
+o en este caso mandando un mensaje de error*/
